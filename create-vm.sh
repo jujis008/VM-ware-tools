@@ -48,7 +48,7 @@ fi
 #Comprobar si existe una maquina con el mismo nombre
 if ( exist_vm $MV_NAME )
 then
-    echo Una vm con nombre \'$MV_NAME\' no existe
+    echo Una vm con nombre \'$MV_NAME\' ya existe
     vm_list
     exit 3
 fi
