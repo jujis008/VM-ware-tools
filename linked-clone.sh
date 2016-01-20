@@ -160,6 +160,3 @@ vm_list
 
 
 #Para terminar arranca el clon desde el cliente de vSphere
-CLONE_ID=$(get_vmid $CLON_VM_NAME)
-vim-cmd vmsvc/power.on $CLONE_ID & | vim-cmd vmsvc/message $CLONE_ID _vmx2 2 | vim-cmd vmsvc/power.off $CLONE_ID
-
