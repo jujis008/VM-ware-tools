@@ -86,5 +86,3 @@ then
 fi
 
 #Para terminar arranca el clon desde el cliente de vSphere
-vim-cmd vmsvc/power.on $CLONE_ID & | vim-cmd vmsvc/message $CLONE_ID _vmx2 2 | vim-cmd vmsvc/power.off $CLONE_ID
-
